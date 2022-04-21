@@ -1,0 +1,80 @@
+/* The stylesheet for the About Page */
+
+.About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.About_description{
+    width: 70rem;
+}
+
+.About_description_text{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: large;
+}
+
+p { margin:0 }
+
+.About_description_header{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.About_members_header{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.About_member_cards{
+    column-count: 3;
+    column-gap: 3.5rem;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 1350px){
+    .About_description_header{
+        font-size: 2rem;
+    }
+
+    .About_description_text{
+        font-size: 1rem;
+    }
+
+    .About_members_header{
+        font-size: 2rem;
+    }
+
+    .About_description{
+        width: 50rem;
+    }
+
+    .About_member_cards{
+        column-gap: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .About_member_cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .About_description{
+        width: 30rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+
+    .About_description{
+        width: 20rem;
+    }
+}
+
+

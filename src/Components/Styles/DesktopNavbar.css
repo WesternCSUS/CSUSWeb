@@ -1,0 +1,42 @@
+/* The stylesheet for the navbar on larger screen sizes */
+.desktop_navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: var(--purple-color);
+    height: 250px;
+}
+
+@media only screen and (max-width: 1000px){
+    .desktop_navbar{
+        display: none;
+    }
+}
+
+.desktop_navbar_link{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    width: 200px;
+}
+
+.desktop_navbar_logo{
+    height: 9rem;
+}
+
+.desktop_navbar_logo_div{
+    width: 20vw;/* Has to be 1/5 of the total viewport width */
+    padding-top: 26px;
+}
+
+@media only screen and (max-width: 1350px){
+    .desktop_navbar_link{
+        font-size: 1.5rem;
+        width: 15vw;
+    }
+
+    .desktop_navbar_logo{
+        height: 7rem;
+    }
+}

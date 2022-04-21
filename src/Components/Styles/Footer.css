@@ -1,0 +1,14 @@
+/* The stylesheet for the footer of the site */
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    height: 34px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 17px;
+    z-index: 1;
+    background-color: var(--purple-color);
+    color: white;
+}

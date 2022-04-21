@@ -1,0 +1,35 @@
+/* The stylesheet for the Contact Page */
+.contact{
+    width: var(--contact_page_content_width);
+    margin: auto;
+}
+
+.online_header, .message_us_header{
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+.online_header, .message_us_header, .in_person_header{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.in_person_header{
+    margin: 0;
+}
+
+.email_info, .facebook_info {
+    display: flex;
+    margin: .5rem 0rem 0rem 0rem;
+}
+
+.email_text, .facebook_text{
+    margin: 0;
+}
+
+.email_addr, .facebook_link{
+    margin: 0;
+}
+
+.in_person_info{
+    margin: .5rem 0rem 0rem 0rem;
+}

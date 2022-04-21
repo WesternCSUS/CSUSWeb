@@ -1,0 +1,69 @@
+/* The stylesheet for the member card in the meet the team section in the about page */
+
+.Card{
+    width: 25rem;
+    background-color: var(--purple-color);
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.Card_image{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 20px;
+}
+
+.Card_name{
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 2rem;
+    vertical-align: middle;
+}
+
+.Card_name_div{
+    vertical-align: middle;
+}
+
+.Card_role{
+    font-size: 1rem;
+    font-style: italic;
+    color: white;
+    margin-left: 2rem;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 1350px) {
+
+    .Card{
+        width: 15rem;
+        padding: .5rem;
+        border-radius: 15px;
+    }
+
+    .Card_image{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 10px;
+    }
+
+    .Card_name{
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+
+    .Card_role{
+        font-size: .7rem;
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+}
+

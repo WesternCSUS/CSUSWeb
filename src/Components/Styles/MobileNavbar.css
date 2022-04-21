@@ -1,0 +1,63 @@
+/* The stylesheet for the navbar on smaller screen sizes */
+.mobile_navbar{
+    display: none;
+}
+
+@media only screen and (max-width: 1000px){
+    .mobile_navbar{
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--purple-color);
+        align-items: center;
+    }
+}
+
+.menu{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 80vw;
+    z-index: 50;
+}
+
+.menu_mask{
+    background-color: #dbdbdb;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 50;
+    opacity: .5;
+}
+
+.icon{
+    margin-right: 1rem;
+    color: white;
+}
+
+.mobile_navbar_link{
+    display: block;
+    margin: 3rem 0rem 3rem 1rem;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.mobile_navbar_logo{
+    height: 3rem;
+    margin: 1rem 0 1rem 1rem;
+}
+
+@media only screen and (max-width: 500px){
+    .mobile_navbar_link{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .mobile_navbar_link{
+        font-size: 1.5rem;
+    }
+}
